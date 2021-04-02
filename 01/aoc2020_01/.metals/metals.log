@@ -660,3 +660,40 @@ Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed 
 [0m2021.04.02 10:43:04 INFO  Canceling debug proxy for [Main][0m
 [0m2021.04.02 10:44:20 INFO  compiling aoc2020_01 (1 scala source)[0m
 [0m2021.04.02 10:44:21 INFO  time: compiled aoc2020_01 in 1.32s[0m
+[0m2021.04.02 10:48:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/sveolon/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.04.02 10:48:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/sveolon/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.04.02 10:48:38 INFO  Starting debug proxy for [Main][0m
+[0m2021.04.02 10:48:38 INFO  Listening for transport dt_socket at address: 63919[0m
+[0m2021.04.02 10:48:38 INFO  Trying to attach to remote debuggee VM localhost:63919 .[0m
+[0m2021.04.02 10:48:38 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.04.02 10:48:38 INFO  41979[0m
+[0m2021.04.02 10:48:38 INFO  41979[0m
+[0m2021.04.02 10:48:38 INFO  193416912[0m
+[0m2021.04.02 10:48:38 INFO  193416912[0m
+[0m2021.04.02 10:48:38 INFO  193416912[0m
+[0m2021.04.02 10:48:38 INFO  193416912[0m
+[0m2021.04.02 10:48:38 INFO  193416912[0m
+[0m2021.04.02 10:48:38 INFO  193416912[0m
+[0m2021.04.02 10:48:39 INFO  Canceling debug proxy for [Main][0m
+[0m2021.04.02 10:49:29 INFO  compiling aoc2020_01 (1 scala source)[0m
+[0m2021.04.02 10:49:29 INFO  time: compiled aoc2020_01 in 0.7s[0m
+[0m2021.04.02 10:49:31 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/sveolon/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.04.02 10:49:31 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/sveolon/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.04.02 10:49:31 INFO  Starting debug proxy for [Main][0m
+[0m2021.04.02 10:49:32 INFO  Listening for transport dt_socket at address: 63938[0m
+[0m2021.04.02 10:49:32 INFO  Trying to attach to remote debuggee VM localhost:63938 .[0m
+[0m2021.04.02 10:49:32 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.04.02 10:49:32 INFO  41979[0m
+[0m2021.04.02 10:49:32 INFO  193416912[0m
+[0m2021.04.02 10:49:31 INFO  Canceling debug proxy for [Main][0m
+[0m2021.04.02 10:49:41 INFO  compiling aoc2020_01 (1 scala source)[0m
+[0m2021.04.02 10:49:41 INFO  time: compiled aoc2020_01 in 0.76s[0m
+[0m2021.04.02 10:49:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/sveolon/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.04.02 10:49:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/sveolon/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.04.02 10:49:43 INFO  Starting debug proxy for [Main][0m
+[0m2021.04.02 10:49:43 INFO  Listening for transport dt_socket at address: 63952[0m
+[0m2021.04.02 10:49:43 INFO  Trying to attach to remote debuggee VM localhost:63952 .[0m
+[0m2021.04.02 10:49:43 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.04.02 10:49:43 INFO  41979[0m
+[0m2021.04.02 10:49:43 INFO  193416912[0m
+[0m2021.04.02 10:49:43 INFO  Canceling debug proxy for [Main][0m
