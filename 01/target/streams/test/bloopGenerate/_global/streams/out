@@ -1,0 +1,4 @@
+[debug] [root-01-test] Classpath dependencies List()
+[debug] [root-01-test] Dependencies from configurations List(root-01)
+[debug] Bloop wrote the configuration of project 'root-01-test' to '/Users/sveolon/dev/advent_of_code_2020/01/.bloop/root-01-test.json'
+[success] Generated .bloop/root-01-test.json

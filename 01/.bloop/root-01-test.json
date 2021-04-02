@@ -1,0 +1,150 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root-01-test",
+        "directory": "/Users/sveolon/dev/advent_of_code_2020/01",
+        "workspaceDir": "/Users/sveolon/dev/advent_of_code_2020/01",
+        "sources": [
+            "/Users/sveolon/dev/advent_of_code_2020/01/src/test/scala",
+            "/Users/sveolon/dev/advent_of_code_2020/01/src/test/scala-2.12",
+            "/Users/sveolon/dev/advent_of_code_2020/01/src/test/scala-2",
+            "/Users/sveolon/dev/advent_of_code_2020/01/src/test/java",
+            "/Users/sveolon/dev/advent_of_code_2020/01/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "root-01"
+        ],
+        "classpath": [
+            "/Users/sveolon/dev/advent_of_code_2020/01/.bloop/root-01/scala-2.12/classes",
+            "/Users/sveolon/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+        ],
+        "out": "/Users/sveolon/dev/advent_of_code_2020/01/.bloop/root-01",
+        "classesDir": "/Users/sveolon/dev/advent_of_code_2020/01/.bloop/root-01/scala-2.12/test-classes",
+        "resources": [
+            "/Users/sveolon/dev/advent_of_code_2020/01/src/test/resources",
+            "/Users/sveolon/dev/advent_of_code_2020/01/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/sveolon/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
+                "/Users/sveolon/.sbt/boot/scala-2.12.12/lib/scala-compiler.jar",
+                "/Users/sveolon/.sbt/boot/scala-2.12.12/lib/jline.jar",
+                "/Users/sveolon/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar",
+                "/Users/sveolon/.sbt/boot/scala-2.12.12/lib/jansi.jar",
+                "/Users/sveolon/.sbt/boot/scala-2.12.12/lib/scala-xml_2.12.jar"
+            ],
+            "analysis": "/Users/sveolon/dev/advent_of_code_2020/01/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Users/sveolon/dev/advent_of_code_2020/01"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/sveolon/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/sveolon/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/sveolon/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/sveolon/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
