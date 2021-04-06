@@ -1,27 +1,43 @@
 import scala.io.Source
 
 object Main extends App {
-  val bufferedSource = Source.fromFile("in.txt")
-  val lines = bufferedSource.getLines().toArray.map(_.toInt)
-  bufferedSource.close
-
-  var result = 0
-  for (line1 <- lines) {
-    for (line2 <- lines) {
-      if (line1 + line2 == 2020)
-        result = line1 * line2
+  def triad(arr1: List[Int], arr2: List[Int], target: Int): Option[Int] = {
+    arr1 match {
+      case Nil => None
+      case head :: next =>
+        if (pair(arr2, arr2, target - head).isDefined)
+          Option(head * pair(arr2, arr2, target - head).get)
+        else
+          triad(next, arr2, target)
     }
   }
 
-  println(result)
-
-  for (line1 <- lines) {
-    for (line2 <- lines) {
-      for (line3 <- lines) {
-        if (line1 + line2 + line3 == 2020)
-          result = line1 * line2 * line3
-      }
+  def pair(arr1: List[Int], arr2: List[Int], target: Int): Option[Int] = {
+    arr1 match {
+      case Nil => None
+      case x :: rest =>
+        if (find_pair(x, rest, target).isDefined)
+          find_pair(x, arr2, target)
+        else
+          pair(rest, arr2, target)
     }
   }
-  println(result)
+
+  def find_pair(el: Int, arr: List[Int], target: Int): Option[Int] = {
+    arr match {
+      case Nil => None
+      case x :: rest =>
+        if (el + x == target) Option(el * x) else find_pair(el, rest, target)
+    }
+  }
+
+  def run {
+    val bufferedSource = Source.fromFile("in.txt")
+    val lines = bufferedSource.getLines().toList.map(_.toInt)
+    bufferedSource.close
+
+    println(pair(lines, lines, 2020).get)
+    println(triad(lines, lines, 2020).get)
+  }
+  run
 }

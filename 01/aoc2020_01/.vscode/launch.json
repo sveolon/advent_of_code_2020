@@ -13,13 +13,6 @@
             "hostName": "localhost",
             "port": 5005
         },
-
-        {
-            "type": "scala",
-            "request": "launch",
-            "name": "Test",
-            "testClass": "???"
-        },
         
         {
             "type": "scala",

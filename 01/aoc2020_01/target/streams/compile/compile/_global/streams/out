@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/sveolon/dev/advent_of_code_2020/01/aoc2020_01/src/main/scala/Main.scala:12:9: return outside method definition[0m
-[0m[[0m[31merror[0m] [0m[0m        return[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
